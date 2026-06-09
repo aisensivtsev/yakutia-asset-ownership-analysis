@@ -35,6 +35,8 @@ Ownership data was assembled from multiple primary sources:
 
 The dataset covers **25 ownership records** across **8 asset sectors**: diamonds, oil & gas, coal, electricity, transport, gas distribution, gold, and timber. Each record represents a distinct ownership stake in a named asset.
 
+These 8 sectors were selected to represent the commanding heights of Yakutia's economy — sectors where asset-level ownership data is accessible in public filings. Some industries with Yakutia exposure fall outside this scope: Polyus Gold's regional mining operations and Norilsk Nickel's logistics infrastructure through the territory are not disaggregated in public disclosures at the Yakutia level, and a full accounting of smaller timber and agriculture subsectors would require registry-level data not publicly available. The 25-record dataset is therefore a deliberate scoping choice that captures the bulk of extractive-sector economic value, not an exhaustive census.
+
 **Revenue attribution** is calculated as:
 
 > Attributed Revenue = Asset Annual Revenue × Ownership Percentage
@@ -75,6 +77,8 @@ This is not incidental. It reflects deliberate structural choices made during So
 
 The regional government's most significant direct holding is a **25% stake in ALROSA** — meaningful but minority.
 
+![Revenue-weighted ownership distribution across federal, regional, municipal, private, and foreign actors](outputs/charts/01_ownership_donut.png)
+
 ### Finding 2: Natural Resources Are Controlled Externally
 
 In every major extractive sector, external entities hold majority control:
@@ -114,6 +118,10 @@ Regional control is comparatively stronger only in:
 - Sakhaneftegazprom (100% — but limited production scale)
 - Partial Yakutskenergo stake (27.6% — subordinate to RusHydro)
 
+### Finding 5: Municipal Stakes Represent an Underappreciated Mechanism
+
+The 8% municipal stake in ALROSA, distributed across Yakutia's raions (districts), represents approximately **$336M in attributed revenue** — more than the entire Yakutia Airlines operation. This mechanism, designed at ALROSA's founding, ensures some resource revenue flows to local communities directly. It is a structural feature rarely discussed but economically significant at the district level.
+
 ### Finding 6: Yakutia's Ownership Share Has Been Systematically Eroded Since 1990
 
 The 2022 figure of 11.1% regional control is not a static starting point — it is the endpoint of a 32-year process of structural erosion. Reconstructing ownership through documented events shows that the Republic of Sakha once exercised de facto control over the majority of economic output from its territory.
@@ -130,7 +138,7 @@ The 2022 figure of 11.1% regional control is not a static starting point — it 
 
 **Net erosion: −49 percentage points over 32 years**, averaging roughly −1.5 pp/year. Crucially, this is not a story of mismanagement or extraction by corrupt officials. Every step was either a federal policy decision (subsoil law, privatization auction rules, federal consolidation of RusHydro) or a corporate transaction (ALROSA IPO proceeds partly went to the republic's own budget, but at the cost of permanent dilution). Yakutia largely participated in — and was unable to refuse — each transition.
 
-*See Chart 5: Yakutia's Eroding Ownership 1990–2022*
+![Yakutia's eroding ownership share 1990–2022](outputs/charts/05_ownership_erosion_trend.png)
 
 ### Finding 7: The Revenue Retention Gap Makes the "Resource Curse" Concrete
 
@@ -149,11 +157,7 @@ When revenue is broken down by sector, the abstract claim that "Yakutia doesn't 
 
 The timber sector — by far the smallest — actually shows the highest retention rate (69.6%), because it is the only sector where the republic retains majority ownership of enterprises. The three largest revenue sectors (oil & gas, coal, diamonds) together generate $4.5B in attributed revenue, of which Yakutia keeps $461M — roughly **10 cents on every dollar** extracted from its land.
 
-*See Chart 6: The Revenue Extraction Gap*
-
-### Finding 5: Municipal Stakes Represent an Underappreciated Mechanism
-
-The 8% municipal stake in ALROSA, distributed across Yakutia's raions (districts), represents approximately **$336M in attributed revenue** — more than the entire Yakutia Airlines operation. This mechanism, designed at ALROSA's founding, ensures some resource revenue flows to local communities directly. It is a structural feature rarely discussed but economically significant at the district level.
+![Revenue extraction gap by sector — what flows out vs. what Yakutia retains](outputs/charts/06_revenue_extraction_gap.png)
 
 ---
 
@@ -184,7 +188,7 @@ ALROSA is simultaneously Yakutia's greatest asset and its most revealing constra
 - Dividend policy is set by a board dominated by federal and private interests
 - Pricing and marketing are controlled by ALROSA's Moscow-based management
 
-The republic's 25% stake is **real wealth, but constrained power**. It entitles Yakutia to a dividend check, not a seat at the strategy table.
+The republic's 25% stake is **real wealth, but constrained power**. It entitles Yakutia to a dividend check, not a seat at the strategy table. Beyond dividend rights, the ALROSA stake has historically functioned as Yakutia's primary political bargaining chip in federal negotiations — the republic's most credible claim on the federation's attention. This dimension helps explain why Yakutia agreed to the 2011 MOEX IPO that diluted its holding from ~37% to 25%: it received a capital inflow to its regional budget, but permanently traded a degree of political leverage for fiscal liquidity. The republic chose cash over influence, at a moment when it needed both.
 
 ### 4.4 The Dividend Trap: Fiscal Dependency on a Corporate Decision
 
@@ -208,11 +212,24 @@ This volatility has a direct structural implication: Yakutia cannot plan multi-y
 
 > The sequence is: Russia extracts resources from Yakutia → revenue flows to Moscow-headquartered corporations → Yakutia receives a portion back as dividends (when declared) → when dividends disappear, federal transfers substitute → Yakutia remains dependent on federal political goodwill at every step.
 
-*See Chart 7: ALROSA Dividend Volatility 2016–2022*
+![ALROSA dividend volatility 2016–2022 — fiscal exposure from a single corporate decision](outputs/charts/07_alrosa_dividend_volatility.png)
 
 ---
 
-## 5. Conclusion
+## 5. Post-2022 Structural Changes: Open Questions
+
+The pre-2022 baseline used in this analysis represents a period of relative stability in Yakutia's ownership structure. The events of 2022 and their aftermath have introduced disruptions whose full implications remain unclear:
+
+- **ALROSA sanctions**: Western sanctions on Russian diamond exports cut ALROSA off from its primary markets (Belgium's Antwerp hub, US retail). The $0 dividend in 2022 is the most visible symptom; the deeper question is whether ALROSA can rebuild market position through India and China routing, and at what sustained price discount.
+- **BP Russia exit from TAAS-Yuryakh**: BP Russia's stake — held alongside the Indian consortium — entered legal limbo after February 2022. The long-term ownership resolution of TAAS-Yuryakh is not yet public.
+- **Foreign investor category in flux**: If foreign stakes are absorbed by Rosneft or transferred domestically, the effective federal share increases further, deepening the structural pattern this analysis documents.
+- **Elga Coal ramp-up under sanctions**: A-Property Group's Elga operation was partly financed on Asian market assumptions. Sanctions accelerated Russia's coal pivot toward Asia, which may benefit Elga's ramp timeline — but on terms not yet disclosed.
+
+These open questions do not invalidate the structural analysis — the underlying ownership architecture and the erosion dynamic remain intact — but they underscore that the quantitative figures in this report are a baseline, not a current-state snapshot. The story of Yakutia's ownership structure did not stop in 2022; it entered a new phase of greater opacity.
+
+---
+
+## 6. Conclusion
 
 Yakutia's economic structure can be summarized in one sentence:
 
